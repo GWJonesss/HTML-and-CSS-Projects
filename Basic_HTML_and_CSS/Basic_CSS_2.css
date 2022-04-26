@@ -1,0 +1,27 @@
+p {color: rgb(0, 0, 0); 
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    }
+
+
+.font_1 {
+    background-color : black ;
+    color: yellow;
+    font-size: large;
+        }
+.font_2 {
+    background-color: darkblue;
+    color: white ; 
+    font-size: medium ;
+        }
+.My_Style {
+color:aquamarine;
+font-family: Trebuchet MS;
+font-weight: bold;
+text-align: center;
+font-size: xx-large;
+text-decoration: underline;
+
+}
+/*here is a comment */
