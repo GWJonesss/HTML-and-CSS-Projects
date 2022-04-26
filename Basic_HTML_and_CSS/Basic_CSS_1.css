@@ -6,21 +6,33 @@ p {color: white;
             }
 
 .font_1 {
-        background-color : black ;
-        color: yellow;
+        background-color : #d52eff ;
+        color: aquamarine;
         font-size: large;
+        font-family: Trebuchet MS;
             }
 .font_2 {
         background-color: darkblue;
         color: white ; 
         font-size: medium ;
+        font-family: Trebuchet MS;
             }
 .My_Style {
-    color:aquamarine;
-    font-family: Trebuchet MS;
-    font-weight: bold;
-    text-align: center;
-    font-size: xx-large;
-    text-decoration: underline;
+                color:aquamarine;
+                font-family: Trebuchet MS;
+                font-weight: bold;
+                text-align: center;
+                font-size: xx-large;
+                text-decoration: underline;
+                text-shadow: 4px 2px #03000a;
+}
 
+.Main_Head {
+    color:aquamarine;
+                font-family: Trebuchet MS;
+                font-weight: bold;
+                text-align: center;
+                font-size: 60px;
+                text-shadow: 4px 2px #03000a;
+}
 }

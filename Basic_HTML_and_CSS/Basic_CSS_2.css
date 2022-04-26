@@ -5,12 +5,12 @@ p {color: rgb(0, 0, 0);
     }
 
 
-.font_1 {
+.font_3 {
     background-color : black ;
     color: yellow;
     font-size: large;
         }
-.font_2 {
+.font_4 {
     background-color: darkblue;
     color: white ; 
     font-size: medium ;
@@ -22,7 +22,7 @@ font-weight: bold;
 text-align: center;
 font-size: xx-large;
 text-decoration: underline;
-text-shadow: 2px 2px #03000a;
+text-shadow: 4px 4px #03000a;
 
 }
 /*here is a comment */
