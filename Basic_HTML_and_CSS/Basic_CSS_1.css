@@ -5,12 +5,24 @@ p {color: white;
     text-align: center;
             }
 
-.font_1 {
-        background-color : #d52eff ;
+.font_1v1 {
+        background-color : #7b00ff ;
         color: aquamarine;
         font-size: large;
         font-family: Trebuchet MS;
             }
+.font_1v2 {
+                background-color : #8300ff ;
+                color: aquamarine;
+                font-size: large;
+                font-family: Trebuchet MS;
+                    }
+.font_1v3 {
+                        background-color : #8a00ff ;
+                        color: aquamarine;
+                        font-size: large;
+                        font-family: Trebuchet MS;
+                            }
 .font_2 {
         background-color: darkblue;
         color: white ; 
@@ -26,6 +38,7 @@ p {color: white;
                 text-decoration: underline;
                 text-shadow: 4px 2px #03000a;
 }
+
 
 .Main_Head {
     color:aquamarine;
