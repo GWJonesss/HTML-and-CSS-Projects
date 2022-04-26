@@ -11,3 +11,8 @@ h1 {color: rgb(2, 1, 24);
     text-align: center;
 
 }
+h3 {color: rgb(255, 255, 255); 
+    font-size: 12px;
+    font-family: Trebuchet MS;
+    font-weight: bold;
+}
