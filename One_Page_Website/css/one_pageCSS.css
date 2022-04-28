@@ -1,0 +1,53 @@
+.top_font 
+{color: white; 
+    font-size: 100px;text-shadow: 2px 2px #03000a;
+    font-family: Trebuchet MS;
+    font-weight: bold;
+    text-align: center;
+            }
+
+.container {
+    background-color: #fae3c6;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.container2 {
+    background-image: "RSS.png";
+    width: 1000px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -800;
+
+}
+
+/* Navbar container */
+.navbar {
+    overflow: hidden;
+    background-color: #212c68;
+    font-family: Arial;
+    position: sticky;
+    top: 0px;
+    z-index: 5;
+    
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 77px;
+    text-decoration: none;
+  }
+  
+  
+  /* Add a red background color to navbar links on hover */
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #9a214d;
+  }
+  
+  /* other colors are 622746 = red  2b3d5f = blue */
