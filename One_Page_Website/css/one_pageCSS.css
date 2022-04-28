@@ -5,12 +5,27 @@
     font-weight: bold;
     text-align: center;
             }
+h3
+{color: white; 
+  font-size: 40px;text-shadow: 2px 2px #03000a;
+  font-family: Trebuchet MS;
+  font-weight: bold;
+  text-align: left;
+          }
+p
+{color: white; 
+  font-size: 12px;
+  font-family: Trebuchet MS;
+
+  text-align: left;
+          }                  
 
 .container {
     background-color: #fae3c6;
     width: 900px;
     margin-left: auto;
     margin-right: auto;
+   
 
 }
 .container2 {
@@ -20,7 +35,43 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: -800;
+    box-shadow: 1px 1px 5px rgb(0, 0, 0);
+    
 
+}
+.container3 {
+  background-color: #622746;
+  width: 1000px;
+  height: 3600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -800;
+  box-shadow: 1px 1px 5px rgb(0, 0, 0);
+
+}
+.container4 {
+  background-color: #622746;
+  width: 1000px;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4000;
+  box-shadow: 1px 1px 5px rgb(0, 0, 0);
+
+}
+
+}
+.photo_container {
+  background-color: #03203f;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 /* Navbar container */
@@ -31,6 +82,7 @@
     position: sticky;
     top: 0px;
     z-index: 5;
+    box-shadow: 1px 1px 5px rgb(0, 0, 0);
     
   }
   
@@ -50,4 +102,3 @@
     background-color: #9a214d;
   }
   
-  /* other colors are 622746 = red  2b3d5f = blue */
