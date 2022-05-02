@@ -153,7 +153,7 @@ section {
 }
 
 .head-main {
-    text-shadow: 2px 4px 5px rdba(0, 0, 0, 0.9);
+    text-shadow: 2px 4px 5px rgba(0, 0, 0, 0.9);
     font-variant: small-caps;
     color: #fff;
     letter-spacing: 5pt;
@@ -201,7 +201,7 @@ section {
 
 .reservation {
     width: 60%;
-    padding:10px;
+    padding: 10px;
     border-radius: 8px;
     margin: 0px auto;
     background-color: rgba(100,65,0,.3);
@@ -227,8 +227,8 @@ section {
     font-weight: 900;
     font-size: 1.5em;
     font-variant: small-caps;
-    letter-spacing: 0.4pt;
-    word-spacing: 0.3pt;
+    letter-spacing: .4pt;
+    word-spacing: .3pt;
 }
 
 .reservation p {
@@ -282,9 +282,10 @@ section {
 .terms {
     margin: 30px 1px 0 0;
     margin-top: 13%;
-    padding-left:  52px;
+    padding-left: 52px;
     font-size: 14px;
     line-height: 5px;
+    color: #000;
     cursor: pointer;
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
@@ -295,7 +296,7 @@ section {
 
 .terms:hover {
     color: orange;
-    text-decoration: underline
+    text-decoration: underline;
 }
     
 .submit input[type="submit"] {
@@ -328,6 +329,6 @@ section {
     background-color: rgba(100,65,0 .3);
     color: #000;
     text-shadow: 2px 2px 8px 0 (0,0,0,0.4);
-    padding:20px 50px 20px 50px;
+    padding: 20px 50px 20px 50px;
     text-align: right;
 }
