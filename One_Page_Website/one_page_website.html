@@ -5,6 +5,7 @@
     <title>Barcelona's Best</title>
     <meta charset="utf-8">
     <link rel="stylesheet" style="text/css" href="css/one_pageCSS.css" />
+    <link rel="stylesheet" style="text/css" href="css/photoboxes.css" />
 
 </head>
 
@@ -12,13 +13,13 @@
   <div class="container" id="home">
 <img src="./images/thumb/header.png" width="900" height="900" alt="Barcelona's Best">
 
-<div style="position:relative;z-index: 5;top: -550px; height: 10px;
-width: 700px;left: 100px;">
+<div class="header">
 <h3 class="top_font">Barcelona's Best</h3>
 </div>
 </div>  
 </header>
-<body style="background-color: #fae3c6;">
+
+<body class="body">
 
 <!--NAV-->
 
@@ -35,10 +36,10 @@ width: 700px;left: 100px;">
 <!--END NAV-->
 
 <!--NEWS RSS-->
-<div id="news" class="container2" style="background-image: url(https://github.com/GWJonesss/HTML-and-CSS-Projects/blob/main/One_Page_Website/images/thumb/RSSf.png?raw=true);">
+<div id="news" class="container2">
 
 <div>
-    <div style="position:relative;z-index: 4;top: 50px;  left: 0px;">
+    <div class="rssbox">
 <div >
     <rssapp-carousel id="u5LFoOTyxLoukeI2"></rssapp-carousel><script src="https://widget.rss.app/v1/carousel.js" type="text/javascript" async></script>
 </div>
@@ -61,8 +62,7 @@ width: 700px;left: 100px;">
 
             <!--PHOTO CONTAINER 1-->
         <div>
-            <div style="position:relative;z-index: 4;top: 40px; height: 300px; background-color: #03203f;
-                width: 1100px;left: 0px; box-shadow: 1px 1px 5px rgb(0, 0, 0);">
+            <div class="pc1">
                  
                 <div class="photo_container">
                    
@@ -70,7 +70,7 @@ width: 700px;left: 100px;">
                 <img src="./images/thumb/player_10.png" alt="Michael Laudrup Picture"width="400" 
                 height="300" />
             
-                <div style="position:relative;z-index: 4;top: -300px;  left: 430px;">
+                <div class="innerpc">
                     <h3> #10 Michael Laudrup</h3>
                     <p>Michael Laudrup joined Barcelona because he adored Johan Cruyff when he growing up. <br> 
                         The Dane would become one of the most exciting footballers on Earth under his hero's tutelage <br>
@@ -89,14 +89,12 @@ width: 700px;left: 100px;">
 
             <!--PHOTO CONTAINER 2-->
             <div>
-                <div style="position:relative;z-index: 4;top: 80px; height: 300px; background-color: #03203f;
-                width: 1100px;left: 0px; box-shadow: 1px 1px 5px rgb(0, 0, 0);">
+                <div class="pc2">
                  
                 <div class="photo_container">
                 <img src="./images/thumb/player_9.png" alt=" Cesar Rodriguez Picture"width="400" 
                 height="300" />
-                <div style="position:relative;z-index: 4;top: -300px; height: 10px;
-                width: 700px;left: 460px;">
+                <div class="innerpc">
                     <h3> #9 Cesar Rodriguez</h3>
                     <p>Cesar Rodriguez was perhaps Barcelona's very first superstar. He managed reach double-figures in<br>
                          goals in 11 seasons and whether he was helping keep the team in the league or leading them to <br>
@@ -113,14 +111,12 @@ width: 700px;left: 100px;">
 
             <!--PHOTO CONTAINER 3-->
             <div>
-                <div style="position:relative;z-index: 4;top: 120px; height: 300px; background-color: #03203f;
-                width: 1100px;left: 0px; box-shadow: 1px 1px 5px rgb(0, 0, 0);">
+                <div class="pc3">
                  
                 <div class="photo_container">
                 <img src="./images/thumb/player_8.png" alt="Ronald Koeman Picture"width="400" 
                 height="300" />
-                <div style="position:relative;z-index: 4;top: -300px; height: 10px;
-                width: 700px;left: 460px;">
+                <div class="innerpc">
                     <h3> #8 Ronald Koeman</h3>
                     <p>He's maybe underrated, simply for his poor stint as manager but it's hard to imagine Barcelona in <br>
                         its modern form without Ronald Koeman. And not just because the Dutchman scored their first-ever<br>
@@ -136,14 +132,12 @@ width: 700px;left: 100px;">
 
             <!--PHOTO CONTAINER 4-->
             <div>
-                <div style="position:relative;z-index: 4;top: 160px; height: 300px; background-color: #03203f;
-                width: 1100px;left: 0px; box-shadow: 1px 1px 5px rgb(0, 0, 0);">
+                <div class="pc4">
                  
                 <div class="photo_container">
                 <img src="./images/thumb/player_7.png" alt="Samuel Eto'o Picture"width="400" 
                 height="300" />
-                <div style="position:relative;z-index: 4;top: -300px; height: 10px;
-                width: 700px;left: 460px;">
+                <div class="innerpc">
                     <h3> #7 Samuel Eto'o</h3>
                     <p>Samuel Eto'o was the complete striker. So few could be so deft on the ball, so intense off of it. <br>
                         And he was utterly perfect for Pep Guardiola: he helped inform the direction that the Catalan would go <br>
@@ -159,14 +153,12 @@ width: 700px;left: 100px;">
 
             <!--PHOTO CONTAINER 5-->
             <div>
-                <<div style="position:relative;z-index: 4;top: 200px; height: 300px; background-color: #03203f;
-                width: 1100px;left: 0px; box-shadow: 1px 1px 5px rgb(0, 0, 0);">
+                <div class="pc5">
                  
                 <div class="photo_container">
                     <img src="./images/thumb/player_6.png" alt="Diego Maradona Picture"width="400" 
                     height="300" />
-                    <div style="position:relative;z-index: 4;top: -300px; height: 10px;
-                    width: 700px;left: 460px;">
+                    <div class="innerpc">
                     <h3> #6 Diego Maradona</h3>
                     <p>He's arguably the greatest footballer of all time. He's worshipped at Boca Juniors and Napoli. <br>
                         But though Diego Maradona trashed the Camp Nou trophy room, got in fisticuffs with opposing players <br>
@@ -185,14 +177,12 @@ width: 700px;left: 100px;">
 
             <!--PHOTO CONTAINER 6-->
             <div>
-                <div style="position:relative;z-index: 4;top: 240px; height: 300px; background-color: #03203f;
-                width: 1100px;left: 0px; box-shadow: 1px 1px 5px rgb(0, 0, 0);">
+                <div class="pc7">
                  
                 <div class="photo_container">
                     <img src="./images/thumb/player_5.png" alt="Ronaldinho Picture"width="400" 
                     height="300" />
-                    <div style="position:relative;z-index: 4;top: -300px; height: 10px;
-                    width: 700px;left: 460px;">
+                    <div class="innerpc">
                     <h3> #5 Ronaldinho</h3>
                     <p>The showman Ronaldinho was the last of the Three R's to light up the Camp Nou. <br>
                          He did it quite unlike the other two. A £21m signing from PSG, Ronnie was expected to inject<br>
@@ -210,14 +200,12 @@ width: 700px;left: 100px;">
 
             <!--PHOTO CONTAINER 7-->
             <div>
-                <div style="position:relative;z-index: 4;top: 280px; height: 300px; background-color: #03203f;
-                width: 1100px;left: 0px; box-shadow: 1px 1px 5px rgb(0, 0, 0);">
+                <div class="pc7">
                  
                 <div class="photo_container">
                     <img src="./images/thumb/player_4.png" alt=" Johan Cruyff Picture"width="400" 
                     height="300" />
-                    <div style="position:relative;z-index: 4;top: -300px; height: 10px;
-                    width: 700px;left: 460px;">
+                    <div class="innerpc">
                     <h3> #4 Johan Cruyff</h3>
                     <p>Pundits, analysts and football nerds fawn over the Dream Team, the diamond midfield and Johan Cruyff's <br>
                          contribution to coaching so much that they sometimes forget just how much of a genius he was on the pitch.<br>
@@ -237,14 +225,12 @@ width: 700px;left: 100px;">
 
             <!--PHOTO CONTAINER 8-->
             <div>
-                <div style="position:relative;z-index: 4;top: 320px; height: 300px; background-color: #03203f;
-                width: 1100px;left: 0px; box-shadow: 1px 1px 5px rgb(0, 0, 0);">
+                <div class="pc8">
                  
                 <div class="photo_container">
                     <img src="./images/thumb/player_3.png" alt="Andres Iniesta Picture"width="400" 
                     height="300" />
-                    <div style="position:relative;z-index: 4;top: -320px; height: 10px;
-                    width: 700px;left: 460px;">
+                    <div class="innerpc">
                     <h3> #3 Andres Iniesta</h3>
                     <p>"He has masterminded some of football's finest heists, but his fingerprints are rarely <br>
                         found at the scene," author Musa Okwonga once said of Andres Iniesta. It's the perfect <br>
@@ -265,14 +251,12 @@ width: 700px;left: 100px;">
 
             <!--PHOTO CONTAINER 9-->
             <div>
-                <div style="position:relative;z-index: 4;top: 360px; height: 300px; background-color: #03203f;
-                width: 1100px;left: 0px; box-shadow: 1px 1px 5px rgb(0, 0, 0);">
+                <div class="pc9">
                  
                 <div class="photo_container">
                     <img src="./images/thumb/player_2.png" alt="Xavi Picture"width="400" 
                     height="300" />
-                    <div style="position:relative;z-index: 4;top: -300px; height: 10px;
-                    width: 700px;left: 460px;">
+                    <div class="innerpc">
                     <h3> #2 Xavi</h3>
                     <p>Xavi might well be La Masia's proudest product: the complete midfielder in its considerably cultured image.<br>
                          A metronome of the game who was schooled in the Barcelona way from the age of 11 and stood <br> 
@@ -294,14 +278,12 @@ width: 700px;left: 100px;">
 
     <!--PHOTO CONTAINER 10-->
     <div>
-        <div style="position:relative;z-index: 4;top: 400px; height: 800px; background-color: #03203f;
-                width: 1100px;left: 0px; box-shadow: 1px 1px 5px rgb(0, 0, 0);">
+        <div class="pc10">
                  
                 <div class="photo_container">
             <img src="./images/thumb/player_1.png" alt="Lionel Messi Picture"width="400" 
             height="300">
-            <div style="position:relative;z-index: 4;top: -300px; height: 10px;
-            width: 700px;left: 460px;">
+            <div class="innerpc">
             <h3>#1 Lionel Messi</h3>
             <p>
                 The numbers of his career have to be seen to be believed. 672 goals in 778 appearances for Barcelona. <br>
@@ -315,12 +297,10 @@ width: 700px;left: 100px;">
                   And that's just a few. He's not only Barcelona's greatest player ever, he's the most talented person to ever <br>
                    lace up their football boots, having changed the game one shoulder drop at a time. </p>
             </div>
-            <div style="position:relative;z-index: 4;top: 40px; height: 800px; 
-                width: 1100px;left: 120px; ">
+            <div class="goalsspacer">
             <h3>Top 20 Goals</h3>
             </div>
-            <div style="position:relative;z-index: 4;top: -860px; width: 560px;
-                left: 440px; box-shadow: 1px 1px 5px rgb(0, 0, 0);">
+            <div class="videospacer">
                 
                 
             <iframe width="560" height="315" src="https://www.youtube.com/embed/PSanJ5swYBM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -334,56 +314,47 @@ width: 700px;left: 100px;">
 </div>
 </section>
 <!--END GALLERY-->
-
-<!-- RSVP-->
-<section>
-    <div id="contact">
-        <div>
-            <div class="center">
-            <div style="position:relative;z-index: 3;top: 480px; 
-                width: 1400px;left: -80px; ">
-            <div class="center">
-            <h1>Submit Your Favorite</h1>
+<!--RSVP-->
+<section id="contact">
+    <div class="reservationbox">
+    <div class="rsvpcontainer">
+        <div class="heading-padding">
+           
+            <div class="reservation">
+                <h1><span>WIN SEASON TICKETS</span>
+                    <br> 
+                </h1>
+                <p class="rsvp-text">
+                    Please provide us with your basic contact information and the name of your favorite player for a Chance to win *Terms and Conditions apply*
+                </p>
+                <div class="form-rsvp">
+                    <form action="" method="post">
+                        <input class="rsvp" type="text" value="" placeholder="First Name">
+                        <input class="rsvp" type="text" value="" placeholder="Last Name">
+                        <input class="rsvp" type="text" value="" placeholder="Email Address">
+                        <input class="rsvp" type="text" value="" placeholder="Phone Number">
+                        <input class="rsvp" type="text" value="" placeholder="Your Favorite Player">
+                        <div class="form-spacer">
+                            <label class="terms">Terms and Conditions</label>
+                        </div>
+                        <div class="submit">
+                            <input type="submit" value="Submit">
+                        </div>
+                    </form>
+                </div>
             </div>
-            <div>
-                
-                <h2><span>Tell us who your favorite player is</span>
-                <br/>To get a chance at winning FC Barcelona Season Tickets!
-            </h2>
-            
-                <span>Please provide us with your basic contact information and your submission</span>
-            
-            <div>
-                <form action="" method="post">
-                    <input class="rsvp" type="text" value="First Name">
-                    <input class="rsvp" type="text" value="Last Name">
-                    <input class="rsvp" type="text" value="Email Address">
-                    <input class="rsvp" type="text" value="Phone Number">
-                    <input class="rsvp" type="text" value="Your Favorite Player">
-                    <div class="form-spacer">
-                        <label class="terms">Terms and Conditions</label>
-                    </div>
-                    <div>
-                        <input type="submit" value="Submit">
-                    </div>
-                </form>
-             </div>
-            </div>
-          </div>
-            </div>
-        </div>
         </div>
     </div>
-
+</div>
 </section>
 <!--END RSVP-->
 
+
 <!--FOOTER-->
-<div style="position:relative;z-index: 4;top: 700px; 
-                width: 1400px;left: 240px; ">
+<div class="footer">
             <div class="center">
 
-                <div style="position:relative; left: -150px;">
+                <div class="footernav">
                     <div class="center">
                     <nav>
                         |<a href="#home">Home</a>|
