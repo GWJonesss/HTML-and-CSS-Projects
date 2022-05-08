@@ -1,4 +1,4 @@
-.image_center{
+.center{
 display:block;    
 margin-left: auto;
 margin-right: auto;
@@ -18,3 +18,129 @@ font-weight: 300;
 font-family:Helvetica, Arial, sans-serif;
 font-size: 12pt;
 }
+
+.table, th, td {
+    border: 2px solid;
+    border-color: aqua;
+    background-color: azure;
+    padding: 10%;
+}
+
+.centeredtext {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .container2 {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+p {
+    font-size: 15px;
+    outline: none;
+    font-weight: 600;
+    color: #0055aa;
+    font-family: Trebuchet MS;
+}
+.container {
+    background-color: #fae3c6;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+   
+
+}
+.navbar {
+    overflow: hidden;
+    background-color: #212c68;
+    font-family: Arial;
+    position: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    top: 0px;
+    z-index: 5;
+    box-shadow: 1px 1px 5px rgb(0, 0, 0);
+    
+  }
+  
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 77px;
+    text-decoration: none;
+  }
+  
+  
+
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #9a214d;
+  }
+  .column {
+    margin-top: 100;
+    float: left;
+    width: 50%;
+  }
+  
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .main {
+    width:800px ;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -100%;
+    padding: 10px;
+    z-index: 1;
+  }
+
+  .videobg {
+    z-index: 4;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+
+  video {
+    align-self: center ;
+    width: 2000px;
+    opacity: 10%;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+
+  /* Set the background color of body to tan */
+body {
+    background-color: tan;
+  }
+  
+  /* On screens that are 992px or less, set the background color to blue */
+  @media screen and (max-width: 992px) {
+    body {
+      background-color: blue;
+    }
+  }
+  
+  /* On screens that are 600px or less, set the background color to olive */
+  @media screen and (max-width: 600px) {
+    body {
+      background-color: olive;
+    }
+  }
+
+  form1 {
+      z-index: 5;
+  }
