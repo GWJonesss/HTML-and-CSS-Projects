@@ -8,6 +8,7 @@ function openModal() {
     document.getElementById("myModal").style.display = "none";
   }
   
+  //setting up slideIndex var so we have something to use to pass through the other functions
   var slideIndex = 1;
   showSlides(slideIndex);
   
