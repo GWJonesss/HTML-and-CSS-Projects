@@ -1,9 +1,9 @@
-// open  Modal
+// open  modal
 function openModal() {
     document.getElementById("myModal").style.display = "block";
   }
   
-  // close  Modal
+  // close  modal
   function closeModal() {
     document.getElementById("myModal").style.display = "none";
   }
@@ -21,14 +21,15 @@ function openModal() {
     showSlides(slideIndex = n);
   }
   
+  //function to control how slides are displayed once lightbox is brought up
   function showSlides(n) {
     var i;
     var slides = document.getElementsByClassName("mySlides");
     var dots = document.getElementsByClassName("lightbox");
     var captionText = document.getElementById("caption");
-    if (n > slides.length) {slideIndex = 1}
+    if (n > slides.length) {slideIndex = 1}// this brings us back to the first picture if we click next on img4
     if (n < 1) {slideIndex = slides.length}
-    for (i = 0; i < slides.length; i++) {
+    for (i = 0; i < slides.length; i++) { 
       slides[i].style.display = "none";
     }
     for (i = 0; i < dots.length; i++) {

@@ -290,13 +290,13 @@ p
   clear: both;
 }
 
-/* Create four equal columns that floats next to eachother */
+
 .column {
   float: left;
   width: 25;
 }
 
-/* The Modal (background) */
+
 .modal {
   display: none;
   position: fixed;
