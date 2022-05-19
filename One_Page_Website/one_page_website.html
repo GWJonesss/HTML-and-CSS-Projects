@@ -6,6 +6,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" style="text/css" href="css/one_pageCSS.css" />
     <link rel="stylesheet" style="text/css" href="css/photoboxes.css" />
+    <script src="JS/main.js" defer></script>
 
 </head>
 
@@ -35,17 +36,82 @@
     
 <!--END NAV-->
 
-<!--NEWS RSS-->
-<div id="news" class="container2">
-
-<div>
-    <div class="rssbox">
-<div >
-    <rssapp-carousel id="u5LFoOTyxLoukeI2"></rssapp-carousel><script src="https://widget.rss.app/v1/carousel.js" type="text/javascript" async></script>
+<!--LightBox-->
+<div class="container6">
+    <div class="center">
+        <h3> <br> &nbsp &nbsp &nbsp &nbsp &nbsp  Photo Gallery</h3>
+    </div>
+<section>
+    <div class="container5">
+<div class="row">
+    <div class="column">
+      <img src="./images/thumb/img1.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+    </div>
+    <div class="column">
+      <img src="./images/thumb/img2.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+    </div>
+    <div class="column">
+      <img src="./images/thumb/img3.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+    </div>
+    <div class="column">
+      <img src="./images/thumb/img4.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+    </div>
+  </div>
+  
+  <!-- The Modal/Lightbox -->
+  <div id="myModal" class="modal">
+    <span class="close cursor" onclick="closeModal()">&times;</span>
+    <div class="modal-content">
+  
+      <div class="mySlides">
+        <div class="numbertext">1 / 4</div>
+        <img src="./images/thumb/img1_wide.jpg" style="width:100%">
+      </div>
+  
+      <div class="mySlides">
+        <div class="numbertext">2 / 4</div>
+        <img src="./images/thumb/img2_wide.jpg" style="width:100%">
+      </div>
+  
+      <div class="mySlides">
+        <div class="numbertext">3 / 4</div>
+        <img src="./images/thumb/img3_wide.jpg" style="width:100%">
+      </div>
+  
+      <div class="mySlides">
+        <div class="numbertext">4 / 4</div>
+        <img src="./images/thumb/img4_wide.jpg" style="width:100%">
+      </div>
+  
+      <!-- Next/previous controls -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
+      <!-- Caption text -->
+      <div class="caption-container">
+        <p id="caption"></p>
+      </div>
+  
+      <!-- Thumbnail image controls -->
+      <div class="column">
+        <img class="lightbox" src="./images/thumb/img1.jpg" onclick="currentSlide(1)" alt="The Iconic Stadium">
+      </div>
+  
+      <div class="column">
+        <img class="lightbox" src="./images/thumb/img2.jpg" onclick="currentSlide(2)" alt="Beautiful Barcelona">
+      </div>
+  
+      <div class="column">
+        <img class="lightbox" src="./images/thumb/img3.jpg" onclick="currentSlide(3)" alt="Endless Trophy Hall">
+      </div>
+  
+      <div class="column">
+        <img class="lightbox" src="./images/thumb/img4.jpg" onclick="currentSlide(4)" alt="Sharing Wins with Fans">
+      </div>
+    </div>
+  </div>
 </div>
-</div>
-</div>
-</div>
+</section>
 
 <!--END NEW RSS-->
 
@@ -177,7 +243,7 @@
 
             <!--PHOTO CONTAINER 6-->
             <div>
-                <div class="pc7">
+                <div class="pc6">
                  
                 <div class="photo_container">
                     <img src="./images/thumb/player_5.png" alt="Ronaldinho Picture"width="400" 
@@ -220,6 +286,7 @@
                         Just two trophies in his playing days there don't do justice to quite what a force he was. </p>
                 </div>
             </div>
+        </div>
         </div>
             <!--END PHOTO CONTAINER 7-->
 
